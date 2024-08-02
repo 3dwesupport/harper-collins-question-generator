@@ -1,0 +1,43 @@
+{
+  "name": "home",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.36",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.21",
+    "@mui/material": "^5.15.21",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@react-pdf-viewer/page-navigation": "^3.12.0",
+    "@react-pdf-viewer/print": "^3.12.0",
+    "@react-pdf-viewer/toolbar": "^3.12.0",
+    "ai": "^3.2.20",
+    "apideck": "^0.1.1",
+    "formidable": "^3.5.1",
+    "formidable-serverless": "^1.1.1",
+    "fs": "^0.0.1-security",
+    "next": "14.2.4",
+    "next-connect": "^1.0.0",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.0.0",
+    "pdfjs-dist": "^3.11.174",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-pdf": "^9.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/pdf-parse": "^1.1.4",
+    "@types/pdfjs-dist": "^2.10.378",
+    "typescript": "5.5.3",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
