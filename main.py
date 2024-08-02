@@ -92,15 +92,10 @@ def create_message(data: ChatgptModel):
         return handle_grammar_questions(extracted_text, num_questions, language, translator)
     elif question_type == 'maths':
         return handle_maths_questions(extracted_text, language, translator)
-    # elif question_type=='hindi':
-    #     return handle_hindi_grammar_questions(extracted_text)
     else:
         return handle_general_questions(extracted_text, num_questions, language, translator)
     
-# def handle_hindi_grammar_questions(text):
-#     # prompt='You are required to generate only 5 practice questions with answers.  for {प्रश्नः 1.  –निम्नलिखित वाक्यों में से संज्ञा शब्दों को रेखांकित कीजिए:} For Example-{क) राम बाजार से फल खरीद रहा है।}, do not give solution for example.'
-#     # response=callApi(prompt)
-#     return [text]
+
 
     
 

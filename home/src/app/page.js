@@ -89,7 +89,6 @@ export default function HomePage() {
               <MenuItem value="questions">Generate Questions from Text</MenuItem>
               <MenuItem value="grammar">Generate English Grammar Practice</MenuItem>
               <MenuItem value="maths">Generate Maths Practice</MenuItem>
-              {/* <MenuItem value="hindi">Generate Hindi Grammar Practice </MenuItem> */}
             </Select>
           </FormControl>
 
