@@ -49,7 +49,7 @@ export default function HomePage() {
         lang: language,
         selection: selection,
       }
-      const response = await axios.post('https://3.6.209.234:8000/chatgpt', body)
+      const response = await axios.post('http://3.6.209.234:8000/chatgpt', body)
 
       if (response.data.includes('Given text is not suitable to generate grammar practice') || response.data.includes('Given text is not suitable to generate maths practice')) {
         setErrorMessage(response.data);
